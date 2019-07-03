@@ -1,0 +1,16 @@
+/*VC++ 6.0  输入成绩判断考试是否通过考试  */
+#include <stdio.h>
+
+int main(){
+	const int PASS = 60;
+	int score;
+
+	printf("请输入成绩：");
+	scanf("%d",&score);
+
+	printf("你输入的成绩是：%d\n",score);
+	if (score > PASS) 
+		printf("恭喜你，考试通过了！\n");
+	else 
+		printf("很遗憾，这个成绩没有通过考试！\n");
+}
