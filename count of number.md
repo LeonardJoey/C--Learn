@@ -1,4 +1,4 @@
-//数一个整数的位数
+#数一个整数的位数
 # include <stdio.h>
 
 int main(){
