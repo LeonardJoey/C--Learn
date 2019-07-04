@@ -1,4 +1,5 @@
-//数一个整数的位数
+*数一个整数的位数*
+```C
 # include <stdio.h>
 
 int main(){
@@ -13,3 +14,4 @@ int main(){
 	}
 	printf("%d\n",n);
 }
+```
