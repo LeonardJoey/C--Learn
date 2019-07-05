@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main() {
+
+	int number = 0;
+	int a,b;
+	int count = 0;
+	
+	printf("请输入一个小于1000的正整数：");
+	scanf_s("%d", &number);
+	a = number;
+	do {
+		b = number % 2;
+		count++;
+		
+		if (b == 0) {
+			number = number / 2;
+			printf("%d\n",number );
+			printf("b=0\n");
+		}
+		else {
+			number = (3 * number + 1) / 2;
+			printf("%d\n", number);
+			printf("b!=0\n");
+		}
+	} while (number != 1);
+//
+//while (number != 1) {
+//	if (number % 2) {
+//		number = ((number * 3) + 1) / 2;
+//		printf("奇\n");
+//	}
+//	else
+//	{
+//		number = number / 2; 
+//		printf("\t偶\n");
+//	}
+//	count++;
+//}
+	printf("\n");
+	printf("您输入的数为：%d，\n", a);
+	printf("这个数总共被砍了%d次之后成为 1 .\n", count);
+	system("pause");
+}
