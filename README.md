@@ -12,3 +12,6 @@ I am a newbie in C Language and this is a simple learning note.
 >##  [while and if](https://github.com/LeonardJoey/C--Learn/blob/master/while%20and%20If)
 
 >##  [score](https://github.com/LeonardJoey/C--Learn/blob/master/score)
+
+>## [砍1000之内的数字](https://github.com/LeonardJoey/C--Learn/blob/master/%E7%A0%8D%E6%95%B0%E5%AD%97)
+
