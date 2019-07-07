@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+void main() {
+
+	int number;
+	int n = 0;
+	printf("请输入整数：");
+	scanf_s("%d", &number);
+
+	//将输入数据转换为它的绝对值，这个绝对值主要处理负数
+	number = abs(number);		
+
+	n++;
+	number /= 10;
+	while (number > 0) {
+		n++;
+		number /= 10;
+	}
+	printf("这是一个%d位数。\n", n);
+	
+}
