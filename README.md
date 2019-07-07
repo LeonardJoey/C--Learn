@@ -15,3 +15,4 @@ I am a newbie in C Language and this is a simple learning note.
 
 >## [砍1000之内的数字](https://github.com/LeonardJoey/C--Learn/blob/master/%E7%A0%8D%E6%95%B0%E5%AD%97)
 
+>## [计算一个整数的位数](https://github.com/LeonardJoey/C--Learn/blob/master/%E8%AE%A1%E7%AE%97%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E7%9A%84%E4%BD%8D%E6%95%B0)
